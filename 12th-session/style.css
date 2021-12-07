@@ -1,0 +1,96 @@
+ /* .overflow-visible {  
+    background-color: rgb(218, 136, 136);
+    overflow: visible;
+    height: 200px;
+    width:50%;
+   padding: 20px;
+ } */
+
+ .overflow-hidden { 
+    background-color: rgb(218, 136, 136);
+    overflow: hidden;
+    height: 100px;
+    width:50%;
+   padding: 20px;
+ }
+
+ .overflow-scroll { 
+    background-color: rgb(218, 136, 136);
+    overflow: scroll;
+    height: 100px;
+    width:50%;
+   padding: 20px;
+ }
+ .overflow-auto { 
+    background-color: rgb(218, 136, 136);
+    overflow: auto;
+    height: 300px;
+    width:50%;
+   padding: 20px;
+ }
+
+body {
+    background-color: #eee;
+}
+ img {
+     width: 100%;
+ }
+
+ p {
+     font-size: 24px;
+ }
+
+ /* Small Devices */
+
+@media (max-width:500px) {
+    body {
+        background-color: rgb(179, 116, 116);
+    }
+    h1:nth-child(1){
+        font-size: 30px;
+    }
+}
+
+/* Mobile Devices */
+
+@media (min-width: 501px) and (max-width: 650px){
+    body {
+        background-color: rgb(116, 179, 137);
+    }
+    h1:nth-child(2){
+        font-size: 10px;
+    }
+}
+
+/* Tablet Devices */
+
+@media (min-width: 651px) and (max-width: 800px ){
+    body {
+        background-color: rgb(116, 122, 179);
+    }
+    h1:nth-child(3){
+        font-size: 10px;
+    }
+}
+
+/* Laptop Devices */
+
+@media (min-width: 801px) and (max-width: 1000px ){
+    body {
+        background-color: rgb(179, 116, 163);
+    }
+    h1:nth-child(3){
+        font-size: 10px;
+    }
+}
+
+/* X Large devices */
+
+@media (min-width: 1001px) {
+    body {
+        background-color: rgb(179, 146, 116);
+    }
+    h1:nth-child(3){
+        font-size: 10px;
+    }
+}

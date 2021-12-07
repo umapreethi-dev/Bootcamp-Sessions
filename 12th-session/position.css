@@ -1,0 +1,44 @@
+div {
+    padding: 20px;
+    border:1px solid black;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    left: 400px;
+   
+}
+
+
+.ancestor {
+   width: 400px;
+   height: 500px;
+   position: relative;
+   left: 400px;
+}
+
+.absolute {
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+position: sticky;
+top: 20px;
+}
