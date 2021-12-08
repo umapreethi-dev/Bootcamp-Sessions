@@ -1,0 +1,26 @@
+:root {
+    font-size: 30px;
+}
+
+
+.parent {
+    height: 50vh;
+    width: 50vw;
+    background-color: #eeeeee;
+    font-size: 20px;
+}
+
+.child1 {
+    height: 5em;
+    width: 5em;
+    background-color: #8b5757;
+}
+
+.child2 {
+    height: 5rem;
+    width: 5rem;
+    background-color: #61578b;
+}
+
+
+/* 1 em = 20px; */
